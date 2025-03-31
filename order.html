@@ -1,0 +1,17 @@
+<form action="order.php" method="POST">
+    <h2>Place Your Order</h2>
+    
+    <label for="guest_name">Your Name (If Guest)</label>
+    <input type="text" name="guest_name" placeholder="Enter Your Name">
+
+    <label for="guest_phone">Phone Number</label>
+    <input type="text" name="guest_phone" placeholder="Enter Your Phone Number" required>
+
+    <label for="items">Your Order</label>
+    <textarea name="items" placeholder="Enter order details" required></textarea>
+
+    <label for="total_price">Total Price</label>
+    <input type="text" name="total_price" placeholder="Enter total price" required>
+
+    <button type="submit">Place Order</button>
+</form>

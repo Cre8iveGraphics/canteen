@@ -1,0 +1,463 @@
+<!-- Menu Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h5 class="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h5>
+            <h1 class="mb-5">Most Popular Items</h1>
+        </div>
+        <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+            <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+                <li class="nav-item">
+                    <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
+                        <i class="fa fa-coffee fa-2x text-primary"></i>
+                        <div class="ps-3">
+                            <small class="text-body">Popular</small>
+                            <h6 class="mt-n1 mb-0">Breakfast</h6>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
+                        <i class="fa fa-hamburger fa-2x text-primary"></i>
+                        <div class="ps-3">
+                            <small class="text-body">Special</small>
+                            <h6 class="mt-n1 mb-0">Lunch</h6>
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="d-flex align-items-center text-start mx-3 me-0 pb-3" data-bs-toggle="pill" href="#tab-3">
+                        <i class="fa fa-utensils fa-2x text-primary"></i>
+                        <div class="ps-3">
+                            <small class="text-body">Lovely</small>
+                            <h6 class="mt-n1 mb-0">Dinner</h6>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div id="tab-1" class="tab-pane fade show p-0 active">
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="Spicy Masala Omelette" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Spicy Masala Omelette</span>
+                                        <span class="text-primary">₹115</span>
+                                    </h5>
+                                    <small class="fst-italic">Fluffy eggs with onions, chilies, and secret spices</small>
+                                    <a href="https://wa.me/?text=I%20want%20to%20order%20a%20Spicy%20Masala%20Omelette%20for%20₹115" 
+                                       class="btn btn-sm btn-primary mt-2" 
+                                       style="width: fit-content;">
+                                        Order via WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="Poha Jalebi Combo" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Poha Jalebi Combo</span>
+                                        <span class="text-primary">₹95</span>
+                                    </h5>
+                                    <small class="fst-italic">Flattened rice with spices, served with crispy jalebis</small>
+                                    <a href="https://wa.me/?text=I%20want%20to%20order%20a%20Poha%20Jalebi%20Combo%20for%20₹95" 
+                                       class="btn btn-sm btn-primary mt-2" 
+                                       style="width: fit-content;">
+                                        Order via WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="Masala Dosa with Chutney" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Masala Dosa with Chutney</span>
+                                        <span class="text-primary">₹125</span>
+                                    </h5>
+                                    <small class="fst-italic">Crispy rice crepe stuffed with spiced potatoes</small>
+                                    <a href="https://wa.me/?text=I%20want%20to%20order%20a%20Masala%20Dosa%20with%20Chutney%20for%20₹125" 
+                                       class="btn btn-sm btn-primary mt-2" 
+                                       style="width: fit-content;">
+                                        Order via WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="Aloo Paratha with Curd" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Aloo Paratha with Curd</span>
+                                        <span class="text-primary">₹105</span>
+                                    </h5>
+                                    <small class="fst-italic">Whole wheat bread stuffed with spiced potatoes</small>
+                                    <a href="https://wa.me/?text=I%20want%20to%20order%20a%20Aloo%20Paratha%20with%20Curd%20for%20₹105" 
+                                       class="btn btn-sm btn-primary mt-2" 
+                                       style="width: fit-content;">
+                                        Order via WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="Veg Sandwich Platter" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Veg Sandwich Platter</span>
+                                        <span class="text-primary">₹135</span>
+                                    </h5>
+                                    <small class="fst-italic">Multigrain bread with fresh veggies and chutneys</small>
+                                    <a href="https://wa.me/?text=I%20want%20to%20order%20a%20Veg%20Sandwich%20Platter%20for%20₹135" 
+                                       class="btn btn-sm btn-primary mt-2" 
+                                       style="width: fit-content;">
+                                        Order via WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="Idli Vada Combo" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Idli Vada Combo</span>
+                                        <span class="text-primary">₹110</span>
+                                    </h5>
+                                    <small class="fst-italic">Steamed rice cakes with lentil donuts and sambar</small>
+                                    <a href="https://wa.me/?text=I%20want%20to%20order%20a%20Idli%20Vada%20Combo%20for%20₹110" 
+                                       class="btn btn-sm btn-primary mt-2" 
+                                       style="width: fit-content;">
+                                        Order via WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="Cornflakes with Fruits" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Cornflakes with Fruits</span>
+                                        <span class="text-primary">₹95</span>
+                                    </h5>
+                                    <small class="fst-italic">Crunchy cornflakes with seasonal fruits and milk</small>
+                                    <a href="https://wa.me/?text=I%20want%20to%20order%20a%20Cornflakes%20with%20Fruits%20for%20₹95" 
+                                       class="btn btn-sm btn-primary mt-2" 
+                                       style="width: fit-content;">
+                                        Order via WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="Besan Chilla with Tea" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Besan Chilla with Tea</span>
+                                        <span class="text-primary">₹85</span>
+                                    </h5>
+                                    <small class="fst-italic">Savory gram flour pancakes with masala tea</small>
+                                    <a href="https://wa.me/?text=I%20want%20to%20order%20a%20Besan%20Chilla%20with%20Tea%20for%20₹85" 
+                                       class="btn btn-sm btn-primary mt-2" 
+                                       style="width: fit-content;">
+                                        Order via WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-2" class="tab-pane fade show p-0">
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="Butter Chicken Thali" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Butter Chicken Thali</span>
+                                        <span class="text-primary">₹195</span>
+                                    </h5>
+                                    <small class="fst-italic">Creamy chicken curry with naan and accompaniments</small>
+                                    <a href="https://wa.me/?text=I%20want%20to%20order%20a%20Butter%20Chicken%20Thali%20for%20₹195" 
+                                       class="btn btn-sm btn-primary mt-2" 
+                                       style="width: fit-content;">
+                                        Order via WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="Veg Biryani" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Veg Biryani</span>
+                                        <span class="text-primary">₹165</span>
+                                    </h5>
+                                    <small class="fst-italic">Fragrant basmati rice with mixed vegetables</small>
+                                    <a href="https://wa.me/?text=I%20want%20to%20order%20a%20Veg%20Biryani%20for%20₹165" 
+                                       class="btn btn-sm btn-primary mt-2" 
+                                       style="width: fit-content;">
+                                        Order via WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="Dal Tadka with Jeera Rice" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Dal Tadka with Jeera Rice</span>
+                                        <span class="text-primary">₹145</span>
+                                    </h5>
+                                    <small class="fst-italic">Tempered lentils with cumin flavored rice</small>
+                                    <a href="https://wa.me/?text=I%20want%20to%20order%20a%20Dal%20Tadka%20with%20Jeera%20Rice%20for%20₹145" 
+                                       class="btn btn-sm btn-primary mt-2" 
+                                       style="width: fit-content;">
+                                        Order via WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="Paneer Tikka Wrap" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Paneer Tikka Wrap</span>
+                                        <span class="text-primary">₹155</span>
+                                    </h5>
+                                    <small class="fst-italic">Grilled cottage cheese in a tortilla wrap</small>
+                                    <a href="https://wa.me/?text=I%20want%20to%20order%20a%20Paneer%20Tikka%20Wrap%20for%20₹155" 
+                                       class="btn btn-sm btn-primary mt-2" 
+                                       style="width: fit-content;">
+                                        Order via WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="Chicken Burger Meal" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Chicken Burger Meal</span>
+                                        <span class="text-primary">₹175</span>
+                                    </h5>
+                                    <small class="fst-italic">Juicy chicken patty with fries and drink</small>
+                                    <a href="https://wa.me/?text=I%20want%20to%20order%20a%20Chicken%20Burger%20Meal%20for%20₹175" 
+                                       class="btn btn-sm btn-primary mt-2" 
+                                       style="width: fit-content;">
+                                        Order via WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="Rajma Chawal" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Rajma Chawal</span>
+                                        <span class="text-primary">₹135</span>
+                                    </h5>
+                                    <small class="fst-italic">Kidney beans curry with steamed rice</small>
+                                    <a href="https://wa.me/?text=I%20want%20to%20order%20a%20Rajma%20Chawal%20for%20₹135" 
+                                       class="btn btn-sm btn-primary mt-2" 
+                                       style="width: fit-content;">
+                                        Order via WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="Veg Fried Rice" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Veg Fried Rice</span>
+                                        <span class="text-primary">₹145</span>
+                                    </h5>
+                                    <small class="fst-italic">Stir-fried rice with fresh vegetables</small>
+                                    <a href="https://wa.me/?text=I%20want%20to%20order%20a%20Veg%20Fried%20Rice%20for%20₹145" 
+                                       class="btn btn-sm btn-primary mt-2" 
+                                       style="width: fit-content;">
+                                        Order via WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="Chole Bhature" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Chole Bhature</span>
+                                        <span class="text-primary">₹125</span>
+                                    </h5>
+                                    <small class="fst-italic">Spiced chickpeas with fried bread</small>
+                                    <a href="https://wa.me/?text=I%20want%20to%20order%20a%20Chole%20Bhature%20for%20₹125" 
+                                       class="btn btn-sm btn-primary mt-2" 
+                                       style="width: fit-content;">
+                                        Order via WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="tab-3" class="tab-pane fade show p-0">
+                    <div class="row g-4">
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="Grilled Chicken Steak" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Grilled Chicken Steak</span>
+                                        <span class="text-primary">₹225</span>
+                                    </h5>
+                                    <small class="fst-italic">Juicy chicken breast with mashed potatoes</small>
+                                    <a href="https://wa.me/?text=I%20want%20to%20order%20a%20Grilled%20Chicken%20Steak%20for%20₹225" 
+                                       class="btn btn-sm btn-primary mt-2" 
+                                       style="width: fit-content;">
+                                        Order via WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="Veg Pulao with Raita" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Veg Pulao with Raita</span>
+                                        <span class="text-primary">₹175</span>
+                                    </h5>
+                                    <small class="fst-italic">Fragrant rice with vegetables and yogurt dip</small>
+                                    <a href="https://wa.me/?text=I%20want%20to%20order%20a%20Veg%20Pulao%20with%20Raita%20for%20₹175" 
+                                       class="btn btn-sm btn-primary mt-2" 
+                                       style="width: fit-content;">
+                                        Order via WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="Mushroom Pizza" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Mushroom Pizza</span>
+                                        <span class="text-primary">₹195</span>
+                                    </h5>
+                                    <small class="fst-italic">Wood-fired pizza with fresh mushrooms</small>
+                                    <a href="https://wa.me/?text=I%20want%20to%20order%20a%20Mushroom%20Pizza%20for%20₹195" 
+                                       class="btn btn-sm btn-primary mt-2" 
+                                       style="width: fit-content;">
+                                        Order via WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="Paneer Butter Masala" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Paneer Butter Masala</span>
+                                        <span class="text-primary">₹185</span>
+                                    </h5>
+                                    <small class="fst-italic">Cottage cheese in rich tomato gravy</small>
+                                    <a href="https://wa.me/?text=I%20want%20to%20order%20a%20Paneer%20Butter%20Masala%20for%20₹185" 
+                                       class="btn btn-sm btn-primary mt-2" 
+                                       style="width: fit-content;">
+                                        Order via WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="Fish Curry Meal" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Fish Curry Meal</span>
+                                        <span class="text-primary">₹215</span>
+                                    </h5>
+                                    <small class="fst-italic">Fresh fish in coconut gravy with rice</small>
+                                    <a href="https://wa.me/?text=I%20want%20to%20order%20a%20Fish%20Curry%20Meal%20for%20₹215" 
+                                       class="btn btn-sm btn-primary mt-2" 
+                                       style="width: fit-content;">
+                                        Order via WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="Dal Makhani" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Dal Makhani</span>
+                                        <span class="text-primary">₹165</span>
+                                    </h5>
+                                    <small class="fst-italic">Creamy black lentils slow-cooked to perfection</small>
+                                    <a href="https://wa.me/?text=I%20want%20to%20order%20a%20Dal%20Makhani%20for%20₹165" 
+                                       class="btn btn-sm btn-primary mt-2" 
+                                       style="width: fit-content;">
+                                        Order via WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="Veg Noodles" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Veg Noodles</span>
+                                        <span class="text-primary">₹155</span>
+                                    </h5>
+                                    <small class="fst-italic">Stir-fried noodles with crisp vegetables</small>
+                                    <a href="https://wa.me/?text=I%20want%20to%20order%20a%20Veg%20Noodles%20for%20₹155" 
+                                       class="btn btn-sm btn-primary mt-2" 
+                                       style="width: fit-content;">
+                                        Order via WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="d-flex align-items-center">
+                                <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="Malai Kofta" style="width: 80px;">
+                                <div class="w-100 d-flex flex-column text-start ps-4">
+                                    <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                        <span>Malai Kofta</span>
+                                        <span class="text-primary">₹195</span>
+                                    </h5>
+                                    <small class="fst-italic">Cottage cheese dumplings in creamy gravy</small>
+                                    <a href="https://wa.me/?text=I%20want%20to%20order%20a%20Malai%20Kofta%20for%20₹195" 
+                                       class="btn btn-sm btn-primary mt-2" 
+                                       style="width: fit-content;">
+                                        Order via WhatsApp
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Menu End -->
